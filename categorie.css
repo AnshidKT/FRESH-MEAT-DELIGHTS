@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; */
+    display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+}
+.logo-div{
+    width: 1100px;
+    height: 80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 250px;
+    height: 60px;
+}
+/* .main-img{
+    width: 1000px;
+    height: 200px;
+    border-radius: 20px;
+} */
+.main-heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-div{
+    width: 1200px;
+    height: 550px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-subdiv1{
+    width: 1200px;
+    height: 250px;
+    /* background-color: rgb(18, 117, 121); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-subdiv{
+    width: 1100px;
+    height: 250px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 160px;
+    height: 230px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+.card-name{
+    font-size: 21px;
+    font-weight: bold;
+}
+#button{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    background-image: linear-gradient(to right, rgb(102, 0, 0) , rgb(248, 83, 83));
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 5px gray;
+}
+#button:hover{
+
+    background-image: linear-gradient(to right, rgb(255, 185, 185) ,rgb(255, 206, 206));
+
+    color: black;
+}

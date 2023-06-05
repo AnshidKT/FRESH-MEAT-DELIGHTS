@@ -1,0 +1,248 @@
+@media (max-width:500px){
+    .Searchbar{
+        display: none;
+
+    }
+    .nav-logo{
+        width: 150px;
+        height: 250px;
+    }
+    .dropbtn {
+        /* background-color: #04AA6D; */
+        color: rgb(0, 0, 0);
+        width: 150px;
+        font-size: 25px;
+        height: 25px;
+        cursor: pointer;
+        border: 0;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .loc-p{
+        font-size: 15px;
+      }
+      .login-link{
+        display: none;
+      }
+
+
+
+      .frst-body-img{
+        width: 700px;
+        height: 90x;
+        box-shadow: 0 0 10px gray;
+      }
+      .frst-body{
+        width: 1100px;
+        height: 40vh;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+      .second-body{
+        width: 1100px;
+        height: 75vh;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .card-div{
+        /* background-color: aqua; */
+        width: 890px;
+      }
+      .second-text-div{
+        /* background-color: antiquewhite; */
+        height: 150px;
+        margin-bottom: 20px;
+      }
+      .second-text{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+      .second-subtext{
+        text-align: center;
+        font-size: 20px;
+
+      }
+
+
+      .offer-div{
+        width:1000px ;
+        height: 200px;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .offer-subdiv{
+        /* background-color: rgb(23, 133, 133); */
+        width:900px ;
+        height: 170px;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+      }
+      .offer-img{
+        width: 400px;
+        height: 170px;
+        box-shadow: 0 0 10px gray;
+      }
+
+      .third-div{
+        width: 1200px;
+        height: 75vh;
+        /* background-color: rgb(214, 235, 122); */
+        display: flex;
+        justify-content: space-around;
+      }
+      .thrd-subdiv{
+        /* background-color: cadetblue; */
+        width: 1200px;
+        height: 55vh;
+      }
+      .thrd-card{
+
+        /* background-color: aliceblue; */
+      }
+      .thrd-cardtext{
+        font-size: 20px;
+      }
+      .card-gms{
+        font-size: 16px;
+      }
+      .card-rate{
+        font-size: 19px;
+      }
+      .card-time{
+        font-size: 17px;
+      }
+
+
+
+
+
+      .forth-div{
+        width: 1200px;
+        height: 100vh;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+     
+      .forth-carddiv{
+        width: 600px;
+        height: 50vh;
+          /* background-color: antiquewhite; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .forth-cardimg{
+        margin-left: 60px;
+      }
+      .review-div{
+          background-color: white;
+        width: 1200px;
+        height: 90vh;
+      }
+      .review-subdiv{
+        /* background-color: blueviolet; */
+         width: 1200px;
+      }
+      .review-box{
+        /* background-color: aliceblue; */
+        width: 370px;
+      }
+      .box-heading{
+font-size: 25px;
+      }
+      .box-para{
+font-size: 20px;
+      }
+      .footer{
+        width: 1200px;
+        /* background-color: aqua; */
+      }
+      .footer-heading{
+        font-size: 24px;
+      }
+      .footer-link{
+        font-size: 18px;
+      }
+      .city-footer{
+        width: 1200px;
+        /* background-color: aqua; */
+      }
+      .city-text{
+        font-size: 25px;
+        text-align: center;
+      }
+      .city-button{
+        width: 150px;
+        height: 50px;
+        margin-left: 50px;
+        
+
+      }
+      .sub-city{
+        width: 1200px;
+        /* background-color: antiquewhite; */
+        display: flex;
+        justify-content: space-around;
+      }
+      .fifth-menus{
+        display: none;
+      }
+      .last-footer{
+        display: inline;
+      }
+
+
+
+
+
+      /* login-page */
+      .main-body{
+        width: 1200px;
+        height: 100vh;
+      }
+      .main-img{
+        width: 1500px;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+      }
+     
+
+
+
+
+
+      /* cart */
+
+      .cart-div{
+        width: 1200px;
+        /* background-color: aqua; */
+      }
+      .thrd-carddiv{
+        width: 1200px;
+        /* background-color: aqua; */
+        margin-top: 70px;
+      }
+      .second-text{
+        margin-top: 60px;
+      }
+     
+    }
