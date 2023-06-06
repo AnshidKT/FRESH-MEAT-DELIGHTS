@@ -25,6 +25,17 @@
     align-items: center;
     justify-content: space-around;
   }
+  .card-row{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    /* background-color: aqua; */
+  }
+  .card-row1{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
   .thrd-card{
     width: 200px;
     height: 300px;

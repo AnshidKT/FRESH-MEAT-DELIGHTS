@@ -1,0 +1,36 @@
+@media(max-width:500px){
+    *{
+        overflow-x: hidden;
+    }
+    .thrd-carddiv{
+        width: 100%;
+        display: flex;
+        /* background-color: aqua; */
+    }
+    .card-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card-row1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* background-color: aqua; */
+    }
+    .thrd-card{
+        width: 30%;
+
+    }
+
+    .second-text{
+        width: 100%;
+        height: 70px;
+        /* background-color: blue; */
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

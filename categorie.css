@@ -55,9 +55,29 @@
     justify-content: space-around;
     align-items: center;
 }
+.card-rowdiv{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+.card-rowdiv1{
+    display: flex;
+    width: 480px;
+    justify-content: space-around;
+}
+.card2-rowdiv{
+    display: flex;
+    width: 720px;
+    justify-content: space-around;
+}
+.card2-rowdiv1{
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+}
 .card{
     width: 160px;
-    height: 230px;
+    height: 250px;
     /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
