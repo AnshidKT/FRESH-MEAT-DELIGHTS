@@ -22,8 +22,11 @@
            <h1 class="login-heading">
             Sign In/Sign Up</h1>
             <div>
-                <input type="text" placeholder="Mobile Number" class="input">
-                <button class="button">Proceed Via OTP</button>
+              <input type="text" placeholder="Mobile Number" id="input" maxlength="10">
+              <div class="span-div">
+              <span id="error-id">please enter 10 numbers</span>
+            </div>
+                <button class="button" onclick=" btonclick()">Proceed Via OTP</button>
             </div>
             <p class="p-text">By signing in you agree to our terms and conditions</p>
         </div>

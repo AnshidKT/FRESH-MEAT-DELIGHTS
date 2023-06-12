@@ -30,9 +30,10 @@
 
 
     .order{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 0px;
         height: 80px;
+        width: 250px;
     }
     
 }

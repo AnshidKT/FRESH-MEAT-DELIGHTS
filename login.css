@@ -40,7 +40,19 @@
 .login-heading{
     font-size: 28px;
 }
-.input{
+.span-div{
+  width: 300px;
+  height: 30px;
+  /* background-color: #1C212E; */
+}
+#error-id{
+  font-size: 15px;
+  color: red;
+  text-align: center;
+  margin-left: 50px;
+  display: none;
+}
+#input{
     font-size: 15px;
     width: 280px;
     height: 30px;
