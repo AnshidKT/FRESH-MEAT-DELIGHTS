@@ -15,14 +15,14 @@ $('.order').click(function(e) {
 
 
 
-function btonclick(event){
-    var inputbox=document.getElementById("input").value
+function btonclick(){
+    var input=document.getElementById("input").value
 
 
-if (inputbox.length <10){
-    document.getElementById("error-id").style.display="inline"
-}
-else {
-    document.getElementById("error-id").style.display="none"
-}
+    if (input.length<10){
+        document.getElementById("error-id").style.display="inline"
+    }
+    else {
+        document.getElementById("error-id").style.display="none"
+    }
 }
